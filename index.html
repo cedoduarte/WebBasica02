@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <script src="js/jquery/jquery-3.5.1.min.js"></script>
+    <script src="js/popper/src/popper.js"></script>
+    <script src="js/bootstrap/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card card-container">
+            <img class="profile-img-card" id="profile-img" src="img/user.png" alt="USER">
+            <p class="profile-name-card" id="profile-name"></p>
+            <form class="form-signin">
+                <span class="reauth-email" id="reauth-email"></span>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email address" required="true" autofocus="true">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password" required="true">
+                <div class="chackbox" id="remember">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="button" id="signInButton">
+                    Iniciar sesión
+                </button>
+            </form>
+            <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+        </div>
+    </div>
+</body>
+</html>
